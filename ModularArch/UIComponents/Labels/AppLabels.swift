@@ -55,7 +55,7 @@ struct BodyStyle: LabelStyleProvider {
 }
 
 // MARK: - Headerlabel
-final class Headerlabel: BaseLabel {
+final class HeaderLabel: BaseLabel {
     init() {super.init(provider: HeaderStyle())}
     required init?(coder: NSCoder) { fatalError() }
 }
